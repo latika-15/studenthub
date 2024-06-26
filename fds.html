@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe by Nutrients</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Find Recipes by Nutrients</h1>
+    <form id="recipe-form">
+        <label for="protein">Protein (grams):</label>
+        <input type="number" id="protein" name="protein">
+        <br>
+        <label for="carbs">Carbs (grams):</label>
+        <input type="number" id="carbs" name="carbs">
+        <br>
+        <label for="fats">Fats (grams):</label>
+        <input type="number" id="fats" name="fats">
+        <br>
+        <button type="submit">Find Recipes</button>
+    </form>
+    <div id="recipe-results"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Protein Powerhouse</title>
+    <link rel="stylesheet" href="pre.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Protein Powerhouse</h1>
+        <p>Explore the world of proteins and their benefits.</p>
+    </header>
+    <main>
+        <section class="protein-type">
+            <h2>Essential Protein Sources</h2>
+            <div class="protein-card">
+                <img src="images/meat.jpg" alt="Meat">
+                <h3>Meat & Poultry</h3>
+                <p>Rich in protein and iron, essential for building and repairing tissues.</p>
+            </div>
+            <div class="protein-card">
+                <img src="images/fish.jpg" alt="Fish">
+                <h3>Fish & Seafood</h3>
+                <p>Excellent source of lean protein, healthy fats, and omega-3 fatty acids.</p>
+            </div>
+            <div class="protein-card">
+                <img src="images/beans.jpg" alt="Beans">
+                <h3>Beans & Legumes</h3>
+                <p>Plant-based protein powerhouses, high in fiber and beneficial for gut health.</p>
+            </div>
+            <div class="protein-card">
+                <img src="images/dairy.jpg" alt="Dairy">
+                <h3>Dairy Products</h3>
+                <p>Provides protein, calcium, and other essential nutrients, good for bone health.</p>
+            </div>
+            <div class="protein-card">
+                <img src="images/nuts.jpg" alt="Nuts & Seeds">
+                <p>Great source of plant-based protein, healthy fats, and fiber, perfect for snacks.</p>
+            </div>
+        </section>
+        <section class="protein-benefits">
+            <h2>Benefits of Protein</h2>
+            <ul>
+                <li>Muscle building and repair</li>
+                <li>Improved satiety and weight management</li>
+                <li>Stronger bones and connective tissues</li>
+                <li>Boosts metabolism and energy levels</li>
+                <li>Supports immune system function</li>
+            </ul>
+        </section>
+
+        <section class="protein-calculator">
+            <h2>Protein Calculator</h2>
+            <form id="protein-calculator">
+                <label for="weight">Body Weight (kg):</label>
+                <input type="number" id="weight" name="weight" required>
+                <br>
+                <label for="activity">Activity Level:</label>
+                <select id="activity" name="activity">
+                    <option value="1.2">Sedentary (little to no exercise)</option>
+                    <option value="1.375">Lightly active (light exercise 1-3 days/week)</option>
+                    <option value="1.55">Moderately active (moderate exercise 3-5 days/week)</option>
+                    <option value="1.725">Very active (hard exercise 6-7 days/week)</option>
+                    <option value="1.9">Extremely active (very hard exercise & physical job)</option>
+                </select>
+                <br>
+                <button type="submit">Calculate Protein Needs</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; The Protein Powerhouse 2024</p>
+    </footer>
+    <script src="st.js"></script>
+</body>
+</html>
